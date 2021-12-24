@@ -1,6 +1,6 @@
 ---
-index: 10.3
-display_index: "10.3"
+index: 5.3
+display_index: "5.3"
 title: 마스터 & 메시지 M/W 설정
 ---
 

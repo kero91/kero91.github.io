@@ -1,6 +1,6 @@
 ---
-index: 10.5
-display_index: "10.5"
+index: 5.5
+display_index: "5.5"
 title: 지시기 점,소등 테스트
 ---
 

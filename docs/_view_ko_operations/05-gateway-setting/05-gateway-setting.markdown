@@ -1,6 +1,6 @@
 ---
-index: 10.4
-display_index: "10.4"
+index: 5.4
+display_index: "5.4"
 title: 게이트웨이 설정
 ---
 

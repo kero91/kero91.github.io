@@ -1,6 +1,6 @@
 ---
-index: 10.1
-display_index: "10.1"
+index: 5.1
+display_index: "5.1"
 title: 게이트웨이-서버 연동 절차
 ---
 

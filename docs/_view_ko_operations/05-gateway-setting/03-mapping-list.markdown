@@ -1,6 +1,6 @@
 ---
-index: 10.2
-display_index: "10.2"
+index: 5.2
+display_index: "5.2"
 title: 지시기-게이트웨이 매핑
 ---
 

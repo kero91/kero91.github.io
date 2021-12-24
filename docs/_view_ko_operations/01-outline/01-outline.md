@@ -23,16 +23,15 @@ title: 개요
       - Operato Lighting 애플리케이션 실행
       - Operato Lighting 애플리케이션 리눅스 서비스 등록
 
-  3. 표시기 게이트웨이 설정
-      - 게이트웨이 IP 설정
-      - 게이트웨이 MQTT 설정
-      - 게이트웨이 기타 센터 정보 설정
-      - 게이트웨이 리부팅
-
   4. Operato Lighting 셋업
       - 게이트웨이 셋업
       - 표시기 셋업
       - 표시기 설정 셋 셋업
       - Operato Lighting Restart
-      - 표시기 연동 테스트
+
+  3. 표시기 게이트웨이 설정
+      - 게이트웨이 - Lighting 연동 프로세스
+      - ...
+
+
 ```

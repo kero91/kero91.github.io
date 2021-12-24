@@ -1,6 +1,6 @@
 ---
-index: 4
-display_index: "4"
+index: 5
+display_index: "5"
 title: 지시기 및 게이트웨이 설정
 ---
 
