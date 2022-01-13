@@ -9,13 +9,19 @@ title: 개요
 시스템 설치 절차는 아래와 같다. 본 문서는 운영환경에 사용되는 시스템이 Linux (Ubnutu)인 경우를 가정하여 기술한다.
 
 ```
-  1. Infra Software 설치
+  1. Server default setting 
+      - Server 계정설정
+      - teamviewer 설치
+      - postman 설치
+      - Infra-Software > repository 확인
+
+  2. Infra Software 설치
       - Node JS 설치
       - 데이터베이스 설치 (Postgresql)
       - Erlang 설치
       - RabbitMQ 설치
 
-  2. Operato Lighting 설치
+  3. Operato Lighting 설치
       - Operato Lighting 애플리케이션 설치
       - Operato Lighting 애플리케이션 라이센스 적용
       - Operato Lighting 애플리케이션 설정 (config.production.js)
@@ -29,7 +35,7 @@ title: 개요
       - 표시기 설정 셋 셋업
       - Operato Lighting Restart
 
-  3. 표시기 게이트웨이 설정
+  5. 표시기 게이트웨이 설정
       - 게이트웨이 - Lighting 연동 프로세스
       - ...
 
