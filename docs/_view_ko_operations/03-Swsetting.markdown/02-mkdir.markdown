@@ -24,11 +24,11 @@ sudo mkdir scripts
 
 **추가적으로 생성된 디렉토리들의 소유자,그룹,권한등이 root로 되어있지 않도록 한다.**
 
-[witch_01]: {{site.baseurl}}/assets/mkdir/witch_01.png
+[witch_01]: {{site.baseurl}}/assets/witch/witch_01.png
 {: width="700px" style="margin-bottom:30px; margin-top:5px; border: 4px; border-style: solid; border-color: #555"}
 
-[witch_02]: {{site.baseurl}}/assets/mkdir/witch_02.png
+[witch_02]: {{site.baseurl}}/assets/witch/witch_02.png
 {: width="700px" style="margin-bottom:30px; margin-top:5px; border: 4px; border-style: solid; border-color: #555"}
 
-[witch_03]: {{site.baseurl}}/assets/mkdir/witch_03.png
+[witch_03]: {{site.baseurl}}/assets/witch/witch_03.png
 {: width="700px" style="margin-bottom:30px; margin-top:5px; border: 4px; border-style: solid; border-color: #555"}
