@@ -23,5 +23,5 @@ curl이란 Client Url로 Client에서 Command Line or Source Code로 웹브라�
 {: width="700px" style="margin-bottom:30px; margin-top:5px; border: 4px; border-style: solid; border-color: #555"}
 
 
-[curl]: {{site.baseurl}}/assets/build/build.png
+[build]]: {{site.baseurl}}/assets/build/build.png
 {: width="700px" style="margin-bottom:30px; margin-top:5px; border: 4px; border-style: solid; border-color: #555"}
