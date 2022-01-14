@@ -12,6 +12,7 @@ title: 개요
   1. Server default setting 
       - Server 계정설정
       - teamviewer 설치
+      - vscode 설치
       - postman 설치
       - Infra-Software > repository 확인
 

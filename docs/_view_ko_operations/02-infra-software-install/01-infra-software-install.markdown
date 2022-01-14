@@ -10,6 +10,7 @@ Server의 기본세팅내용에 관한 내용을 설명한다.
 세팅 목록은 다음과 같다 
 
 1. Server 계정설정
-2. chrome 설치
-3. teamviewer 설치
-4. vscode 설치
+2. teamviewer 설치
+3. vscode 설치
+4. postman 설치
+
