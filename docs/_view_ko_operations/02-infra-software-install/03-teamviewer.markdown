@@ -6,7 +6,7 @@ title: teamviewer Setting
 
 teamviewer는 추후 원활한 작업을 위해 초기에 세팅되어야한다. 설치 방법은 다음과 같다.
 
-#### **1) teamviewer download 
+#### **1) teamviewer download** 
 
 인터넷을통하여 teamviewer 홈페이지로 접근하여 OS에 맞는 teamviewer를 다운로드한다.
 
@@ -32,17 +32,17 @@ teamviewer는 추후 원활한 작업을 위해 초기에 세팅되어야한다.
 
 
 
-[teamviewer_1]: {{site.baseurl}}/assets/install/teamviewer/teamviewer_1.png
+[teamviewer_1]: {{site.baseurl}}/assets/teamviewer/teamviewer_1.png
 {: width="700px" style="margin-bottom:30px; margin-top:5px; border: 4px; border-style: solid; border-color: #555"}
 
-[teamviewer_2]: {{site.baseurl}}/assets/install/teamviewer/teamviewer_2.png
+[teamviewer_2]: {{site.baseurl}}/assets/teamviewer/teamviewer_2.png
 {: width="700px" style="margin-bottom:30px; margin-top:5px; border: 4px; border-style: solid; border-color: #555"}
 
-[teamviewer_3]: {{site.baseurl}}/assets/install/teamviewer/teamviewer_3.png
+[teamviewer_3]: {{site.baseurl}}/assets/teamviewer/teamviewer_3.png
 {: width="700px" style="margin-bottom:30px; margin-top:5px; border: 4px; border-style: solid; border-color: #555"}
 
-[teamviewer_4]: {{site.baseurl}}/assets/install/teamviewer/teamviewer_4.png
+[teamviewer_4]: {{site.baseurl}}/assets/teamviewer/teamviewer_4.png
 {: width="700px" style="margin-bottom:30px; margin-top:5px; border: 4px; border-style: solid; border-color: #555"}
 
-[teamviewer_5]: {{site.baseurl}}/assets/install/teamviewer/teamviewer_5.png
+[teamviewer_5]: {{site.baseurl}}/assets/teamviewer/teamviewer_5.png
 {: width="700px" style="margin-bottom:30px; margin-top:5px; border: 4px; border-style: solid; border-color: #555"}
