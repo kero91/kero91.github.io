@@ -13,4 +13,5 @@ Server의 기본세팅내용에 관한 내용을 설명한다.
 2. teamviewer 설치
 3. vscode 설치
 4. postman 설치
+5. rabbitmq 설치
 

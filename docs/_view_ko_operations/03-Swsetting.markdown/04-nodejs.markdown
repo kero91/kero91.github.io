@@ -10,12 +10,12 @@ title: Git,Nvm,Npm,Nodejs,Yarn 설치
 -명령어 : sudo apt-get install git 
 -> 패키지 리스트에 git update 
 
-![git_01]][git_01]
+![git_01][git_01]
 
 -명령어 : sudo apt install git 
 -> 패키지 리스트를 읽어와 git install 
 
-![git_02]][git_02]
+![git_02][git_02]
 
 
 **NVM설치**

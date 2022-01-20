@@ -9,6 +9,6 @@ title: Operato-lighting 전 사전설치 항목
 1. 설치될 항목들의 경로설정 
 2. nodejs설치전 필요한 apt세팅 
 3. 패키지관리모듈 nvm,npm을 비롯한 nodejs , yarn설치 
-4. operato-lightin Setting
+4. operato-lighting Setting
 
 
