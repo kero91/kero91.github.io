@@ -12,7 +12,7 @@ title: Operato Lighting config / migration setting
 
 **lighting/config 아래의 config.product 파일내용변경**
 
-'''
+---
 module.exports = {
   protocol: 'http',
   port: 4000,
@@ -47,7 +47,7 @@ module.exports = {
     options: {}
   }
 }
-'''
+---
 
 **config.product의 파일내용 변경후 ( 양식/DB정보 ) DB migration 진행**
 
