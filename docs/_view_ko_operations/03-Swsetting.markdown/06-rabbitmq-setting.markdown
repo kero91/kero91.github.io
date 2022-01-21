@@ -6,9 +6,6 @@ title: rabbitmq-setting
 
 **Rabbitmq-Setting**
 -서버와 Gateway와 통신을 하기 위해 필요한 Sw이다.
-
--명령어 : sudo apt-get update
- -> 패키지 리스트 확인
  
 1. infra-repository에서 rabbitmq관련 file을 다운로드 한다.
 
@@ -31,9 +28,9 @@ title: rabbitmq-setting
 ![rabbitmq_05][rabbitmq_05]
 
 6. rabbitmq를 사용하기전 plugins들을 추가해주어야한다.
--명령어 : sudo ./rabbitmq-plugins enable rabbitmq_management
--명령어 : sudo ./rabbitmq-plugins enable rabbitmq_mqtt 
--명령어 : sudo ./rabbitmq-plugins enable rabbitmq_web_mqtt 
+-명령어 : sudo ./rabbitmq-plugins enable rabbitmq_management</br>
+-명령어 : sudo ./rabbitmq-plugins enable rabbitmq_mqtt </br>
+-명령어 : sudo ./rabbitmq-plugins enable rabbitmq_web_mqtt </br>
 
 ![rabbitmq_06][rabbitmq_06]
 
