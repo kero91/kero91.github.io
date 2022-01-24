@@ -38,15 +38,14 @@ module.exports = {
     dblogging: true
   },
   legacy: {
-    // legacyEndpoint: 'http://60.196.69.234:25001',
-    // token: '82ef92c6-8aa5-4ed6-b737',
     legacyEndpoint: 'http://localhost:4000',
     legacyIndOnRes: 'http://localhost:4000/api/unstable/ind-on',
     legacyGwInitRpt: 'http://localhost:4000/api/unstable/gw-init',
-    token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjNlYTJlZWJmLTg3YzItNGUyOS1iODY3LTBkYzZjNTk5MzZhZiIsInVzZXJUeXBlIjoiYXBwbGlhbmNlIiwiYXBwbGlhbmNlIjp7ImlkIjoiNDk2ZDMwZjItOWEzOC00N2IzLTgzYjMtY2QxYjlkNDE5NWFlIn0sInN0YXR1cyI6ImFjdGl2YXRlZCIsImRvbWFpbiI6eyJzdWJkb21haW4iOiJzeXN0ZW0ifSwiaWF0IjoxNjE2Mzc0MDkyLCJleHAiOjE2NDc5MzE2OTIsImlzcyI6ImhhdGlvbGFiLmNvbSIsInN1YiI6ImFjY2Vzcy10b2tlbiJ9.7bCmyMOnx1oo-OY8BS3fAxvaQwT9RIEb715PQkVS6Xo',
+    token: 'lighting에서 발급받은 토큰정보',
     options: {}
   }
 }
+
 ---
 
 **config.product의 파일내용 변경후 ( 양식/DB정보 ) DB migration 진행**
