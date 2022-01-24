@@ -4,9 +4,9 @@ display_index: "4.2"
 title: Operato Lighting client settings
 ---
 
-**이번장에서는 operato-lighting client를 세팅하는 법을 설명한다.**
--operato-lighting폴더를 보면 알겠지만 , dist-server만 존재하고 client는 존재하지 않는다.
--앞의 3장을 잘 따라왔다면 operato-lighting설치를 위한 사전준비는 다된 것이며 , 이번 4장에서는 dist-client만 생성해주고 서버기동을 하면 된다.
+**이번장에서는 operato-lighting client를 세팅하는 법을 설명한다.**  
+-operato-lighting폴더를 보면 알겠지만 , dist-server만 존재하고 client는 존재하지 않는다.  
+-앞의 3장을 잘 따라왔다면 operato-lighting설치를 위한 사전준비는 다된 것이며 , 이번 4장에서는 dist-client만 생성해주고 서버기동을 하면 된다.  
 
 
 -yarn build를 통해 client를 생성해준다.
