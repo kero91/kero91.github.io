@@ -13,36 +13,36 @@ title: Operato Lighting config / migration setting
 **lighting/config 아래의 config.product 파일내용변경**
 
 ---
-module.exports = {
-  protocol: 'http',
-  port: 4000,
-  accessTokenCookieKey: 'access_token.lighting',
-  subdomain: "system",
-  ormconfig: {
-    name: 'default',
-    type: 'postgres',
-    database: 'lighting',
-    username: 'lighting',
-    password: 'lighting@2020',
-    host: '60.196.69.234',
-    port: 25008,
-    synchronize: true,
-    logging: true
-  },
-  indicator: {
-    endpoint: 'mqtt://60.196.69.234:21883',
-    options: {},
-    mytopic: 'dps_server',
-    gwFirmwareUrl: '',
-    indFirmwareUrl: '',
-    dblogging: true
-  },
-  legacy: {
-    legacyEndpoint: 'http://localhost:4000',
-    legacyIndOnRes: 'http://localhost:4000/api/unstable/ind-on',
-    legacyGwInitRpt: 'http://localhost:4000/api/unstable/gw-init',
-    token: 'lighting에서 발급받은 토큰정보',
-    options: {}
+module.exports = {  
+  protocol: 'http',  
+  port: 4000,  
+  accessTokenCookieKey: 'access_token.lighting',  
+  subdomain: "system",  
+  ormconfig: {  
+    name: 'default',  
+    type: 'postgres',  
+    database: 'lighting',  
+    username: 'lighting',  
+    password: 'lighting@2020',  
+    host: '60.196.69.234',  
+    port: 25008,  
+    synchronize: true,  
+    logging: true  
+  },  
+  indicator: {  
+    endpoint: 'mqtt://60.196.69.234:21883',  
+    options: {},  
+    mytopic: 'dps_server',  
+    gwFirmwareUrl: '',  
+    indFirmwareUrl: '',  
+    dblogging: true  
+  },  
+  legacy: {  
+    legacyEndpoint: 'http://localhost:4000',  
+    legacyIndOnRes: 'http://localhost:4000/api/unstable/ind-on',  
+    legacyGwInitRpt: 'http://localhost:4000/api/unstable/gw-init',  
+    token: 'lighting에서 발급받은 토큰정보',  
+    options: {}  
   }
 }
 
