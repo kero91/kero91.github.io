@@ -49,7 +49,24 @@ title: Git,Nvm,Npm,Nodejs,Yarn 설치
 **-설정후 node -v / npm -version 으로 nodejs , npm이 정상적으로 설치되었는지 확인**
 
 **Yarn설치**
+-npm을 통해서 yarn을 받는다.  
 
+-명령어 : npm install -g yarn
+
+![yarn_01][yarn_01]
+
+-yarn 설치후 yarn프로젝트의 dependency를 하기 명령어를 통해 받는다.  
+
+-명령어 : yarn install 
+
+![yarn_02][yarn_02]
+
+-yarn build가 정상적으로 동작하는지 확인만 해둔다 , 추후 4장에서 yarn을 통하여 client를 생성할때 사용한다.  
+ ( 해당 명령어가 정상적으로 먹지않고 오류가 뜬다면 yarn이 정상적으로 설치되지 않은것이니 , 재설치를 요한다.)
+
+-명령어 : yarn build 
+
+![yarn_03][yarn_03]
 
 
 
@@ -68,4 +85,16 @@ title: Git,Nvm,Npm,Nodejs,Yarn 설치
 {: width="700px" style="margin-bottom:30px; margin-top:5px; border: 4px; border-style: solid; border-color: #555"}
 
 [nvm_03]: {{site.baseurl}}/assets/nvm/nvm_03.png
+{: width="700px" style="margin-bottom:30px; margin-top:5px; border: 4px; border-style: solid; border-color: #555"}
+
+[yarn_01]: {{site.baseurl}}/assets/yarn/yarn_01.png
+{: width="700px" style="margin-bottom:30px; margin-top:5px; border: 4px; border-style: solid; border-color: #555"}
+
+[yarn_02]: {{site.baseurl}}/assets/yarn/yarn_02.png
+{: width="700px" style="margin-bottom:30px; margin-top:5px; border: 4px; border-style: solid; border-color: #555"}
+
+[yarn_03]: {{site.baseurl}}/assets/yarn/yarn_03.png
+{: width="700px" style="margin-bottom:30px; margin-top:5px; border: 4px; border-style: solid; border-color: #555"}
+
+[yarn_04]: {{site.baseurl}}/assets/yarn/yarn_04.png
 {: width="700px" style="margin-bottom:30px; margin-top:5px; border: 4px; border-style: solid; border-color: #555"}
