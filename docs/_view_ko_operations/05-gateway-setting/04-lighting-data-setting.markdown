@@ -28,7 +28,7 @@ Operato-lighting에서는 Operato Manager와 달리 표시기 통신을 위해 �
 
 ![guide_05][guide_05]
 
-#### **4) 역활등록 
+#### **4) 역할등록 
 
 고객사 이름으로 역할등록을 진행한다.  ex ) 교보문고의경우 kyobo / kyobo
 
