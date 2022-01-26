@@ -30,7 +30,7 @@ module.exports = {
     logging: true  
   },  
   indicator: {  
-    endpoint: 'mqtt://admin:admin@ip:port',  // 해당정보는 Rabbitmq -> Overview -> Listening port -> mqtt에서 확인 가능하다 / Rabbitmq에서 생성해준 admin계정도 입력한다.
+    endpoint: 'mqtt://admin:admin@ip:port',  // 해당정보는 Rabbitmq -> Overview -> Listening port -> mqtt에서 확인 가능하다 / Rabbitmq에서 생성해준 admin계정도 입력한다.  
     options: {},  
     mytopic: 'dps_server',  
     gwFirmwareUrl: '',  
@@ -47,6 +47,7 @@ module.exports = {
 }
 
 ---
+-config.production.js의 endpoint에 필요한 rabbitmq정보  
 ![mqtt-port][mqtt-port]
 
 **config.product의 파일내용 변경후 ( 양식/DB정보 ) DB migration 진행**
