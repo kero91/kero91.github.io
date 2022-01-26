@@ -42,6 +42,8 @@ title: rabbitmq-setting
 
 **plugins 추가후 rabbitmq-server를 실행한다.**
 
+
+
 ![rabbitmq_07][rabbitmq_07]
 
 **rabbitmq가 정상적으로 실행되었다면 , http://localhost:1572 로 접근하면된다.**
@@ -57,6 +59,8 @@ title: rabbitmq-setting
 ![rabbitmq_10][rabbitmq_10]
 
 **rabbitmq폴더의 etc -> rabbitmq아래의 rabbitmq.conf파일과 rabbitmq-env.conf파일을 생성한다.**
+
+
 
 ![rabbitmq_11][rabbitmq_11]
 ![rabbitmq_12][rabbitmq_12]

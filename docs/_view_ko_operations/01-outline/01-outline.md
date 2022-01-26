@@ -12,23 +12,19 @@ title: 개요
   1. Server default setting 
       - Server 계정설정
       - teamviewer 설치
-      - vscode 설치
-      - postman 설치
       - Infra-Software > repository 확인
 
   2. Infra Software 설치
-      - Node JS 설치
-      - 데이터베이스 설치 (Postgresql)
-      - Erlang 설치
-      - RabbitMQ 설치
+      - 디렉토리 생성
+      - apt-settings
+      - nodejs ( npm,nvm )
+      - postgresql ( db설치 )
+      - rabbitmq 설치
 
   3. Operato Lighting 설치
       - Operato Lighting 애플리케이션 설치
-      - Operato Lighting 애플리케이션 라이센스 적용
       - Operato Lighting 애플리케이션 설정 (config.production.js)
-      - Operato Lighting 애플리케이션 실행 스크립트 작성
       - Operato Lighting 애플리케이션 실행
-      - Operato Lighting 애플리케이션 리눅스 서비스 등록
 
   4. Operato Lighting 셋업
       - 게이트웨이 셋업

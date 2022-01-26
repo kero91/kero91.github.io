@@ -30,7 +30,7 @@ module.exports = {
     logging: true  
   },  
   indicator: {  
-    endpoint: 'mqtt://60.196.69.234:21883',  
+    endpoint: 'mqtt://admin:admin@ip:port',  // 해당정보는 Rabbitmq -> Overview -> Listening port -> mqtt에서 확인 가능하다 / Rabbitmq에서 생성해준 admin계정도 입력한다.
     options: {},  
     mytopic: 'dps_server',  
     gwFirmwareUrl: '',  
@@ -47,6 +47,7 @@ module.exports = {
 }
 
 ---
+![mqtt-port][mqtt-port]
 
 **config.product의 파일내용 변경후 ( 양식/DB정보 ) DB migration 진행**
 
@@ -67,6 +68,12 @@ module.exports = {
 ![migration_03][migration_03]
 ![migration_04][migration_04]
 
+**하기의 2장의 사진은 Rabbitmq의 Connection / Queue관련 정보이며 , 추후 Gateway - Rabbitmq간의 연동이 정상적으로 되면 , Gateway에 대한 정보가 나타난다.**
+
+![mqtt-connection][mqtt-connection]  
+
+![mqtt-gateway-queue][mqtt-gateway-queue]  
+
 
 [migration_01]: {{site.baseurl}}/assets/client/migration_01.png
 {: width="700px" style="margin-bottom:30px; margin-top:5px; border: 4px; border-style: solid; border-color: #555"}
@@ -80,3 +87,11 @@ module.exports = {
 [migration_04]: {{site.baseurl}}/assets/client/migration_04.png
 {: width="700px" style="margin-bottom:30px; margin-top:5px; border: 4px; border-style: solid; border-color: #555"}
 
+[mqtt-port]: {{site.baseurl}}/assets/guide/mqtt-port.png
+{: width="700px" style="margin-bottom:30px; margin-top:5px; border: 4px; border-style: solid; border-color: #555"}
+
+[mqtt-connection]: {{site.baseurl}}/assets/guide/mqtt-connection.png
+{: width="700px" style="margin-bottom:30px; margin-top:5px; border: 4px; border-style: solid; border-color: #555"}
+
+mqtt-gateway-queue]: {{site.baseurl}}/assets/guide/mqtt-gateway-queue.png
+{: width="700px" style="margin-bottom:30px; margin-top:5px; border: 4px; border-style: solid; border-color: #555"}
